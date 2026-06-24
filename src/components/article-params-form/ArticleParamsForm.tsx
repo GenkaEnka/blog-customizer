@@ -96,6 +96,7 @@ export const ArticleParamsForm = ({
 							onChange={(value) => handleChange({ fontColor: value })}
 						/>
 					</div>
+					<div className={styles.divider} />
 					<div className={styles.section}>
 						<Select
 							title='ЦВЕТ ФОНА'
